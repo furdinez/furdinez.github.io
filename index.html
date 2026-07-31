@@ -314,7 +314,9 @@ footer .wrap{display:flex; justify-content:space-between; gap:20px; flex-wrap:wr
 
   .hero{padding:34px 0 40px}
   .hero-grid{gap:24px}
-  .portrait{width:132px; border-radius:3px}
+  /* On a phone the headline should land first. The portrait is still in the
+     sharing card and the press kit, where it does more work. */
+  .portrait{display:none}
   .creds{gap:6px; margin-top:22px}
   .creds li{padding:8px 12px}
   .creds .what{font-size:14.5px}
